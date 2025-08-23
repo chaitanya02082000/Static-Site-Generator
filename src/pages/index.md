@@ -1,9 +1,7 @@
 ---
-title:Welcome To the site
-
-author:Javaskdj
-date:Augalkj
+title: Welcome to My Static Site
+author: JavaScript Joel
+date: Aug 15, 2020
 ---
 
-- Hello
-  - Basic Vody
+Like hello
