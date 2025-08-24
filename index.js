@@ -8,6 +8,10 @@ import path from "path";
 const readFile = (filename) => {
   const rawFile = fs.readFileSync(filename, "utf8");
   const parsed = matter(rawFile);
+  marked.setOptions({
+    breaks: true, // Convert line breaks to <br>
+    gfm: true, // Enable GitHub Flavored Markdown
+  });
   const html = marked(parsed.content);
 
   return { ...parsed, html };

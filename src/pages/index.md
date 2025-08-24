@@ -11,5 +11,6 @@ date: Sun August 20
   transitioning towards gamdev and low level stuff.
 
 [resume](./resume.pdf) [github](https://github.com/chaitanya02082000)
-
+[projects](./projects.html)
+[chaitanyagithub0208@gmail.com](mailto:chaitanyagithub0208@gmail.com)
 ![An image](img.png)
