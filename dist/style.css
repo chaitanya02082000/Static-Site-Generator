@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: 50%;
+  margin: 0 auto;
+  background: #151515;
+  font-family: "Space Mono", monospace;
+  font-size: 19px;
+  color: #fff;
+  line-height: 2;
+  display: table;
+}
+
+/* CRT scanline effect */
+html::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 1px, transparent 1px);
+  background-size: 2px 2px;
+  background-repeat: repeat;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Content styles */
+#content {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0 20px 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  list-style: none;
+}
+
+li {
+  position: relative;
+}
+
+a {
+  color: #fff;
+  text-decoration: white underline 2px;
+  transition: text-shadow 0.3s ease;
+}
+
+a:hover {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+hr {
+  height: 4px;
+  background: #fff;
+  opacity: 25%;
+  border: none;
+}
+
+#header_block {
+  margin-left: 5%;
+}
+
+#banner {
+  height: auto;
+  width: 35%;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Media queries */
+@media screen and (max-width: 1300px) {
+  body {
+    width: 90%;
+  }
+}
+
+/* Date display styling */
+h3 {
+  font-size: 1em;
+  opacity: 0.8;
+  margin: 0.5em 0;
+}
+
+/* Additional CRT screen curvature effect */
+#content::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at center,
+    transparent 50%,
+    rgba(0, 0, 0, 0.15) 150%
+  );
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* Slight text glow effect */
+h1,
+h3,
+p {
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+/* Custom selection color */
+::selection {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
