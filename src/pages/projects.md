@@ -11,9 +11,9 @@ author: Chaitanya
   - [ssg](https://github.com/chaitanya02082000/Static-Site-Generator)
 
 - A AI powered Recipe Cataloguer
-  - [whsk](whsk.netlify.app)
+  [whsk](https://whsk.netlify.app)
 
 - Remote Code Execution Engine
-  - [rcecod](rcecod.netlify.app)
+  [rcecod](https://rcecod.netlify.app)
 
-    [return](./index.html)
+      [return](./index.html)
