@@ -1,7 +1,6 @@
 ---
 title: Projects
 author: Chaitanya
-# date: Sun August 20
 ---
 
 - **first website i ever made**
@@ -10,10 +9,10 @@ author: Chaitanya
 - **Static website generator**
   - [ssg](https://github.com/chaitanya02082000/Static-Site-Generator)
 
-- A AI powered Recipe Cataloguer
-  [whsk](https://whsk.netlify.app)
+- **AI powered Recipe Cataloguer**
+  - [whsk](https://whsk.netlify.app)
 
-- Remote Code Execution Engine
-  [rcecod](https://rcecod.netlify.app)
+- **Remote Code Execution Engine**
+  - [rcecod](https://rcecod.netlify.app)
 
-      [return](./index.html)
+[return](/index.html)
